@@ -17,8 +17,8 @@ from time import sleep
 # here's an idea for the above; detect when playback progress = 0, so that the program runs again, ez
 
 # TO:DO[next version]: place all these info in another .py file
-os.environ["SPOTIPY_CLIENT_ID"] = "621ab85f13024dcb94e1fe7eeb23790e"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "dbcbb47ce3bf4adfb7082cf8659c229b"
+os.environ["SPOTIPY_CLIENT_ID"] = "CLIENT-ID-HERE"
+os.environ["SPOTIPY_CLIENT_SECRET"] = "CLIENT-SECRET-HERE"
 os.environ["SPOTIPY_REDIRECT_URI"] = "http://localhost:8080"
 username = "melroy_caeiro"
 scope = "user-read-playback-state user-read-currently-playing"
@@ -184,9 +184,3 @@ while(x == 1):
 
 
         currentTrack = trackNow
-
-
-
-
-
-
