@@ -5,8 +5,8 @@
 CRGB leds[120];
 
 // Replace with your network credentials
-const char* ssid     = "Gilroy'sWifi@unifi";
-const char* password = "matilda25";
+const char* ssid     = "NETWORK-SSID-HERE";
+const char* password = "PASSWORD-HERE";
 
 // Set web server port number to 80
 WiFiServer server(80);
