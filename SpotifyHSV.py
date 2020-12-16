@@ -18,8 +18,8 @@ from time import sleep
 # here's an idea for the above; detect when playback progress = 0, so that the program runs again, ez
 
 # TO:DO[next version]: place all these info in another .py file
-os.environ["SPOTIPY_CLIENT_ID"] = "CLIENT_ID_HERE"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "CLIENT_SECRET_HERE"
+os.environ["SPOTIPY_CLIENT_ID"] = "CLIENT-ID-HERE"
+os.environ["SPOTIPY_CLIENT_SECRET"] = "CLIENT-SECRET-HERE"
 os.environ["SPOTIPY_REDIRECT_URI"] = "http://localhost:8080"
 username = "melroy_caeiro"
 scope = "user-read-playback-state user-read-currently-playing"
